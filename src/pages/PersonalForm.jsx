@@ -125,7 +125,7 @@ class PersonalForm extends Component {
                 name="estado"
                 options={ states }
               />
-              {disabled ? <span style={ { color: 'red' } }>Preencha todos oscampos.</span>
+              {disabled ? <span style={ { color: 'red' } }>Preencha todos os campos.</span>
                 : button}
             </fieldset>
           </div>

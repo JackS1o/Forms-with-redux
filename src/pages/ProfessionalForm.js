@@ -88,7 +88,7 @@ class ProfessionalForm extends Component {
                 value={ Descricao }
                 required
               />
-              {disabled ? <span style={ { color: 'red' } }>Preencha todos oscampos.</span>
+              {disabled ? <span style={ { color: 'red' } }>Preencha todos os campos.</span>
                 : button}
             </fieldset>
           </div>
